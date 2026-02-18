@@ -12,3 +12,5 @@ steps:
       - --allow-unauthenticated
       - --entry-point=hello
       - --source=./functions/hello
+options:
+  logging: CLOUD_LOGGING_ONLY
